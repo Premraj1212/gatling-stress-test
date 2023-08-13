@@ -25,5 +25,13 @@ Explored features of Gatling for stress testing the Acetoys application using Ja
 ### Run Test
 Tests can be run on local and support CI.
 
+```$xslt
+mvn clean gatling:test -Dgatling.simulationClass=acetoys.checkout.CheckoutSimulation
+```
 
- 
+### Reports
+Gatling reports generated after tests run:
+
+Sample screen shot of report for the execution below:
+
+![gatling Report](image/checkout-test-report.PNG)
